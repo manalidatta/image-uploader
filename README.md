@@ -1,15 +1,13 @@
 # React File Upload
 
-> This is a full stack React-Express file uploader but could easily be modified to work with any back-end including cloud storage
+> A simple React App that takes in an image input from the user's local machine and uploads it on the app's public directory and shows it on the app page.
 
-## Quick Start
+## Installations
 
-```bash
-# Install dependencies server/client
-npm install
-cd client
-npm install
+npm install express express-fileupload  
+npm install -D nodemon concurrently  
+npm install react-zoom-pan-pinch
 
-# Serve on localhost:3000
+## Running the app
+
 npm run dev
-```
